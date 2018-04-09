@@ -16,4 +16,8 @@ public class Vehicle {
 		if (velocitat_actual < velocitat_maxima) velocitat_actual += 10;
 	}
 	
+	public void Desaccelerar() {
+		if (velocitat_actual > 0) velocitat_actual -= 10;
+	}
+	
 }
